@@ -282,7 +282,7 @@
 			(pin output line
 				(at 15.24 -7.62 180)
 				(length 2.54)
-				(name "INC_B"
+				(name "B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -300,7 +300,7 @@
 			(pin output line
 				(at 15.24 -5.08 180)
 				(length 2.54)
-				(name "INC_A"
+				(name "A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -426,7 +426,7 @@
 			(pin output line
 				(at 15.24 -10.16 180)
 				(length 2.54)
-				(name "INC_I"
+				(name "I"
 					(effects
 						(font
 							(size 1.27 1.27)
