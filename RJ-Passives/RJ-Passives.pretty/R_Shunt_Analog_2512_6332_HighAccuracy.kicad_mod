@@ -1,0 +1,161 @@
+(footprint "R_Shunt_Analog_2512_6332_HighAccuracy"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "2512 (6332 Metric) Pad Layout for High-Current Sensing Accuracy, Style C")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "43f5d9de-092e-4e7a-b8e4-3b818309b503")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_Shunt_Analog_2512_6332_HighAccuracy"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bee6b41d-6e20-4b12-9ffe-d322a1c3a119")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.analog.com/en/resources/analog-dialogue/articles/optimize-high-current-sensing-accuracy.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2362f87-d0ed-408b-ad02-2ed89c7b6d17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2512 (6332 Metric) Pad Layout for High-Current Sensing Accuracy, Style C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e606631c-72bf-439e-ab87-a1c2d68a3ca9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers yes)
+	(fp_line
+		(start -3.2 -2.2)
+		(end 3.2 -2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "422bf7e1-79ed-49f5-bbcd-c1ea5d0e4629")
+	)
+	(fp_line
+		(start -3.2 2.2)
+		(end 3.2 2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d5bb3363-fb29-49cd-b14a-d8dd048da563")
+	)
+	(fp_rect
+		(start -4.45 -2.25)
+		(end 4.45 2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "24176939-71ce-4593-848a-d391ff1a34d9")
+	)
+	(fp_rect
+		(start -3.15 -1.6)
+		(end 3.15 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "40266f6f-b886-4d50-9ca0-b9765dd37f96")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5b8e67d1-1632-4c10-a428-938bdd183eec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.5 -1.4)
+		(size 3.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e1f97d6c-b57a-4680-97c0-6e9e2d333743")
+	)
+	(pad "1" smd rect
+		(at -2.5 1.4)
+		(size 3.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b2710e90-155b-4cc5-85d2-e1aa79c0b0fc")
+	)
+	(pad "2" smd rect
+		(at -2.5 0)
+		(size 3.4 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "50f8bcce-1c28-4511-97d0-f85f4206058d")
+	)
+	(pad "3" smd rect
+		(at 2.5 0)
+		(size 3.4 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6c6d8556-98ec-4562-bd96-b0275128ff82")
+	)
+	(pad "4" smd rect
+		(at 2.5 -1.4)
+		(size 3.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0a05d34b-21ce-4db0-80c1-6f25d05d8532")
+	)
+	(pad "4" smd rect
+		(at 2.5 1.4)
+		(size 3.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "15ae1d7f-af71-4fc1-b167-7daf208987b2")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2512_6332Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
