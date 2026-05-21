@@ -114,7 +114,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.286 0) (xy -5.08 0)
+					(xy -2.286 0) (xy -3.81 0)
 				)
 				(stroke
 					(width 0)
@@ -268,7 +268,7 @@
 		)
 		(symbol "STL90N10F7_1_1"
 			(pin input line
-				(at -7.62 0 0)
+				(at -6.35 0 0)
 				(length 2.54)
 				(name "G"
 					(effects
