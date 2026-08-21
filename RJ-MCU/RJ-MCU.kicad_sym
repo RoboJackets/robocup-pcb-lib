@@ -332,7 +332,7 @@
 			(pin bidirectional line
 				(at 21.59 2.54 180)
 				(length 2.54)
-				(name "PA0"
+				(name "PA0/TIM2_CH1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -348,9 +348,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -21.59 2.54 0)
+				(at 21.59 0 180)
 				(length 2.54)
-				(name "PA1/TIM2_CH4"
+				(name "PA1/TIM2_CH2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -366,7 +366,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -21.59 0 0)
+				(at 21.59 -2.54 180)
 				(length 2.54)
 				(name "PA2/TIM2_CH3"
 					(effects
@@ -384,9 +384,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 0 180)
+				(at -21.59 -10.16 0)
 				(length 2.54)
-				(name "PA3"
+				(name "PA3/SPI2_MISO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -404,7 +404,7 @@
 			(pin bidirectional line
 				(at -21.59 -5.08 0)
 				(length 2.54)
-				(name "PA4/SPI1_~{SS}"
+				(name "PA4/SPI2_~{SS}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -422,7 +422,7 @@
 			(pin bidirectional line
 				(at -21.59 -7.62 0)
 				(length 2.54)
-				(name "PA5/SPI1_SCK"
+				(name "PA5/SPI2_SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -438,9 +438,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -21.59 -10.16 0)
+				(at -21.59 2.54 0)
 				(length 2.54)
-				(name "PA6/SPI1_MISO"
+				(name "PA6/TIM3_CH1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -456,9 +456,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -21.59 -12.7 0)
+				(at -21.59 0 0)
 				(length 2.54)
-				(name "PA7/SPI1_MOSI"
+				(name "PA7/TIM3_CH2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -474,7 +474,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 -2.54 180)
+				(at 21.59 -12.7 180)
 				(length 2.54)
 				(name "PB1"
 					(effects
@@ -510,9 +510,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 -7.62 180)
+				(at -21.59 -12.7 0)
 				(length 2.54)
-				(name "PA12[PA10]"
+				(name "PA12[PA10]/SPI2_MOSI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -564,7 +564,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 21.59 -10.16 180)
+				(at 21.59 -7.62 180)
 				(length 2.54)
 				(name "PA15"
 					(effects
