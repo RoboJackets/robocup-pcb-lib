@@ -561,7 +561,7 @@
 			(pin passive line
 				(at 3.81 3.81 270)
 				(length 2.54)
-				(name "CH5"
+				(name "CH4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -576,11 +576,11 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 3.81 3.81 270)
+			(pin free line
+				(at 3.81 0 270)
 				(length 2.54)
 				(hide yes)
-				(name "CH5"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -595,11 +595,11 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 1.27 3.81 270)
+			(pin free line
+				(at 1.27 0 270)
 				(length 2.54)
 				(hide yes)
-				(name "CH3"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -614,11 +614,11 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -1.27 3.81 270)
+			(pin free line
+				(at -1.27 0 270)
 				(length 2.54)
 				(hide yes)
-				(name "CH2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -633,11 +633,11 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -3.81 3.81 270)
+			(pin free line
+				(at -3.81 0 270)
 				(length 2.54)
 				(hide yes)
-				(name "CH1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
